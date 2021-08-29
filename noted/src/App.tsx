@@ -12,11 +12,12 @@ const document: any = [
 
 function App() {
   return (
-    <div className="h-screen">
+    <div>
       <Navbar />
-      <div className="grid grid-cols-9">
+
+      <div className="relative grid grid-cols-9 z-10">
         <Sidebar />
-        <Document doc={document} />
+        <Document />
       </div>
     </div>
   );

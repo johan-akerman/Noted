@@ -1,3 +1,3 @@
-export function Text() {
-  return <p className="text-2xl pb-3">sasdfasdf</p>;
+export function Text({ text }) {
+  return <p className="text-2xl pb-3">{text}</p>;
 }

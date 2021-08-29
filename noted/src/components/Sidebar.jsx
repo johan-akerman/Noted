@@ -31,7 +31,7 @@ export function Sidebar() {
     <div className="col-span-2 border-r-2 border-gray-200 h-screen px-3 py-8">
       <h1 className="text-3xl pl-3 ">Add content</h1>
       <p className="pl-3 pb-3 text-md text-gray-400">
-        Drag and drop to add to your doc.
+        Drag and drop to add to your note.
       </p>
 
       {objects.map((object) => {

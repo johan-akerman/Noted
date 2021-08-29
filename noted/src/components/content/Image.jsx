@@ -1,10 +1,8 @@
-import image from "../../images/image_placeholder.png";
-
-export function Image() {
+export function Image({ imageUrl, caption }) {
   return (
     <>
-      <img className="w-full" src={image} />
-      <p className="pt-1 text-gray-500 pb-6">Caption goes here</p>
+      <img className="w-full" src={`${imageUrl}`} />
+      <p className="pt-1 text-gray-500 pb-6">{caption}</p>
     </>
   );
 }
