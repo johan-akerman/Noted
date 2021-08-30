@@ -1,28 +1,14 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faFont, faImage } from "@fortawesome/free-solid-svg-icons";
 
 const objects = [
   {
-    icon: faCoffee,
+    icon: faFont,
     text: "Text",
   },
   {
-    icon: faCoffee,
+    icon: faImage,
     text: "Image",
-  },
-  {
-    icon: faCoffee,
-    text: "Video",
-  },
-
-  {
-    icon: faCoffee,
-    text: "Quote",
-  },
-
-  {
-    icon: faCoffee,
-    text: "Test",
   },
 ];
 
